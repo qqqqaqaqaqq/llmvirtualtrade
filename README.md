@@ -46,9 +46,13 @@
 <br>
 
 - Setting Fail
+<br>
+
 ![Fail image](./images/failimage.png)
 
 - Setting Success
+<br>
+
 ![Success image](./images/successimage.png)
 - If the process succeeds, a `.env` file and a `logs` folder will be generated.
 
