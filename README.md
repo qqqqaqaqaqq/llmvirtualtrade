@@ -21,7 +21,6 @@
 
 - This is a backtesting application used to evaluate the profitability of LLM-driven trading strategies based on market data.
 - The list of supported market data indicators can be found in the `indicators.py` file.
----
 
 ### Support Model : LLM API Model
 - GPT-5.0-mini
@@ -35,6 +34,9 @@
 ### Runtime Environment
 - Windows 11
 ---
+## Click `ui.py`
+- `ui.py` 파일을 클릭하여 실행합니다.
+- Click the `ui.py` file to run it.
 
 ## Start FORM
 ![DataBase input](./images/DBINPUT.png)
@@ -78,7 +80,6 @@ pgAdmin DB 내 테이블을 확인하여 정상 등록 여부를 확인할 수 �
 - **Start / End Date**: Trading start and end time  
 
 Click **SAVE CONFIGURATION** after completing the form. Check the pgAdmin DB table to confirm proper registration.
----
 
 ## FORM ACTION Key
 
@@ -109,6 +110,15 @@ Click **SAVE CONFIGURATION** after completing the form. Check the pgAdmin DB tab
 - There is a prompt section in the `prompt.py` file. Changing the output form may prevent proper output.  
 - The currency unit is KRW.  
 - To change the output language, modify `self.country` in `prompt.py` to your native country code.
+
+## Cost
+- 기본적으로 LLM 호출 비용이 존재합니다. 해당 호출비용은 각 모델별 사이트에서 확인하거나
+- logs 폴더 내에서 예상 비용이 확인 가능합니다. logs 폴더내 log 파일의 예상비용은 '1회' 호출 비용입니다.
+<br>
+
+- There is a cost for calling the LLM by default. You can check the cost on each model's website.  
+- You can also check the estimated cost in the `logs` folder. The estimated cost in the log files is for **one call**.
+---
 
 > ⚠️ **내부 수정은 가능하나, 원본 코드의 권리는 작성자에게 있습니다.**  
 > ⚠️ **You may modify internally, but the rights to the original code belong to the author.**
