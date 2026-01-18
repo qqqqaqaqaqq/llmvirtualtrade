@@ -72,14 +72,14 @@ def init_trade_insert():
 
 def user_insert(
     ticker, userprompt, llm_model,
-    openai, grok, gemma,
+    openai, grok, gemma, userid,
     trade_interval, trading_fee,
     start_time, end_time
 ):
     db = SessionLocal()
     try:
         user = db.query(UserInformation)\
-                 .filter(UserInformation.userid == "testuser")\
+                 .filter(UserInformation.userid == userid)\
                  .first()
 
         if user:

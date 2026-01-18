@@ -415,6 +415,7 @@ class AppUI:
         user_data = None
         if user:
             user_data = {
+                "userid" : userid,
                 "ticker": user.ticker,
                 "userprompt": user.userprompt,
                 "llm_model": user.llm_model,
