@@ -1,0 +1,16 @@
+PyJWT
+sqlalchemy
+psycopg2-binary
+httpx
+pandas
+ta
+scikit-learn
+requests
+tiktoken
+psutil
+pyupbit
+google-generativeai
+google-genai
+OpenAI
+cryptography
+pydantic_settings
