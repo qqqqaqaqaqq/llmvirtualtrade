@@ -37,22 +37,22 @@
 ---
 
 ## Start FORM
-- **init form**
 ![DataBase input](./images/DBINPUT.png)
 - **DB_HOST**: Database host (e.g., `localhost`)
 - **DB_USER**: PostgreSQL username (e.g., `postgres`)
 - **DB_PASSWORD**: PostgreSQL user password
 - **DB_NAME**: Your database name
 - **DB_PORT**: Database port (e.g., `5432`)
+<br>
 
-- **fail**
+- Setting Fail
 ![Fail image](./images/failimage.png)
 
-- **success**
+- Setting Success
 ![Success image](./images/successimage.png)
 - If the process succeeds, a `.env` file and a `logs` folder will be generated.
 
-## User Insert FORM (한글)
+## User Insert FORM
 ![UserInsert image](./images/UserInsert.png)
 
 - **Ticker**: 거래할 코인 티커 (예: BTC, SOL)  
@@ -73,8 +73,7 @@ pgAdmin DB 내 테이블을 확인하여 정상 등록 여부를 확인할 수 �
 - **API Key**: API key for calling the model  
 - **Start / End Date**: Trading start and end time  
 
-Click **SAVE CONFIGURATION** after completing the form.  
-Check the pgAdmin DB table to confirm proper registration.
+Click **SAVE CONFIGURATION** after completing the form. Check the pgAdmin DB table to confirm proper registration.
 ---
 
 ## FORM ACTION Key
