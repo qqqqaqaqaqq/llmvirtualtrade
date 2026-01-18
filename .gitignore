@@ -43,10 +43,13 @@ backend/__pycache__/
 /**/.env*
 /**/github/workflows/
 
-
 /**/path/to/
 path/to/
 **/path/to/
 
 /**/log/
 /**/logs/
+
+# 빌드
+/**/build/
+/**/dist/
