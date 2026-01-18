@@ -1,4 +1,5 @@
 # Prompt 기반 LLM Virtual Trade Backtesting
+# 마켓 데이터와 전략으로 LLM이 얼마만큼 수익을 낼 수 있는지 테스트 하기위한 백테스팅 프로그램
 ---
 
 ## 해당 프로그램은 실제 트레이딩 전 백테스팅용 프로그램입니다.
@@ -122,3 +123,6 @@ Click **SAVE CONFIGURATION** after completing the form. Check the pgAdmin DB tab
 
 > ⚠️ **내부 수정은 가능하나, 원본 코드의 권리는 작성자에게 있습니다.**  
 > ⚠️ **You may modify internally, but the rights to the original code belong to the author.**
+
+# 실행 영상
+[![영상 보기](https://img.youtube.com/vi/hxbcNC2y9Do/0.jpg)](https://youtu.be/hxbcNC2y9Do)
