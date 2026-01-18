@@ -47,7 +47,6 @@ def init_trade_insert():
     db = SessionLocal()
     try:
         trade:TradingHistory=TradingHistory(
-            id=1,
             userid="testuser",
             createdtime = datetime.now(timezone.utc),
             position={},
