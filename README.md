@@ -126,3 +126,8 @@ Click **SAVE CONFIGURATION** after completing the form. Check the pgAdmin DB tab
 
 # 실행 영상
 [![영상 보기](https://img.youtube.com/vi/hxbcNC2y9Do/0.jpg)](https://youtu.be/hxbcNC2y9Do)
+
+
+# 실제 거래 사이트
+임시 : https://www.bottrader.shop/market
+사용법 : https://wannacodemaster.tistory.com/22
