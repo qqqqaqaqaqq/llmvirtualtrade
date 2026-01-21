@@ -130,4 +130,12 @@ Click **SAVE CONFIGURATION** after completing the form. Check the pgAdmin DB tab
 
 # 실제 거래 사이트
 임시 : https://www.bottrader.shop/market
+<br>
+
 사용법 : https://wannacodemaster.tistory.com/22
+<br>
+
+- 백테스팅과 다르게 안전성을 위해 추가한 내용 2가지가 있습니다.
+  - 1분간 BTC -1% 급락시 빠른 재거래가 실행 됩니다.
+  - 프롬프트에 코인 공포 탐욕 지수 추가됩니다.
+  - 거시경제 및 코인 뉴스가 PROMPT에 추가됩니다.
